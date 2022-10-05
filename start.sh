@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Start the first process
-if [ $(ps aux | grep tgyinhu@gmail.com | grep -v grep | wc -l) -eq 0 ]
+if [ $(ps aux | grep renqer@outlook.com | grep -v grep | wc -l) -eq 0 ]
 then
-  nohup py -l tgyinhu@gmail.com > /dev/null 2>&1 &
+  nohup py -l renqer@outlook.com > /dev/null 2>&1 &
 fi
 
 # Start the second process
